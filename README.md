@@ -1,12 +1,28 @@
 
 ### setup
      npm install
+
+      
+### remove your plugin
+       cordova plugin rm com.allunite.sdk.cordova
      
 ### add your plugin
       cordova plugin add https://github.com/allunite/cordova-sdk
       
-### remove your plugin
-       cordova plugin rm com.allunite.sdk.cordova
+#### If you see this error      
+     Probably this is either a connection problem, or plugin spec is incorrect.
+     Check your connection and plugin name/version/URL.
+     Failed to get absolute path to installed module
+
+Solutions seems to be:
+Delete everything from package.json and "allunite-cordova-sdk" folder inside node_modules and try to add plugin again
+
+     "allunite-cordova-sdk": "git+https://github.com/allunite/cordova-sdk.git",
+     
+     "com.allunite.sdk.cordova": "https://github.com/allunite/cordova-sdk.git"
+     
+     "com.allunite.sdk.cordova": {}
+
        
 ### Run on device 
      cordova run android
