@@ -15,8 +15,9 @@
      Failed to get absolute path to installed module
 
 Solutions seems to be:
-Delete everything from package.json and "allunite-cordova-sdk" folder inside node_modules and try to add plugin again
+Delete everything allUnite related from package.json and the "allunite-cordova-sdk" folder inside node_modules, then try to add plugin again.
 
+     Remove fra package.json
      "allunite-cordova-sdk": "git+https://github.com/allunite/cordova-sdk.git",
      
      "com.allunite.sdk.cordova": "https://github.com/allunite/cordova-sdk.git"
