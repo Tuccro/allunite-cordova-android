@@ -1,4 +1,19 @@
 
+## My configuration
+
+**Android Oreo**
+
+**Windows 8.1**
+
+**Cordova v7.0.1**
+
+**npm - v4.0.3**
+
+**node - v6.9.1**
+
+
+
+
 ### setup
      npm install
 
@@ -37,9 +52,3 @@ After calling AlluniteSDK.initSdk(success, failure) nothing happens
 Other AlluniteSDK function seems to work fine.
    
      
-### My configuration
-Windows 8.1
-Cordova v7.0.1
-npm - v4.0.3
-node - v6.9.1
-
