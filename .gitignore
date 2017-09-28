@@ -1,0 +1,10 @@
+
+.idea/
+
+
+node_modules/
+platforms/
+plugins/
+res/
+
+.npmignore
