@@ -1,9 +1,9 @@
 
-## My configuration
+## My configuration:
 
-**Android Oreo**
+**Android 7.1.1
 
-**Windows 8.1**
+**Ubuntu 15
 
 **Cordova v7.0.1**
 
@@ -23,6 +23,9 @@
      
 ### add your plugin
       cordova plugin add https://github.com/allunite/cordova-sdk
+      
+### add your app credentials to AndroidManifest.xml file
+      find AndroidManifest at PROJECT_DIR/platforms/android/AndroidManifest.xml and add app credentials to Application as it described at documentation https://github.com/allunite/cordova-sdk/blob/master/README.md
       
 #### If you see this error      
      Probably this is either a connection problem, or plugin spec is incorrect.
@@ -47,8 +50,6 @@ Delete everything allUnite related from package.json and the "allunite-cordova-s
 After calling  AlluniteSDK.initSdk(success, failure) success or failure callback to be called.
 
 ### Experinced  
-After calling AlluniteSDK.initSdk(success, failure) nothing happens
+After calling  AlluniteSDK.initSdk(success, failure) success or failure callback to be called.
 
-Other AlluniteSDK function seems to work fine.
-   
-     
+Other AlluniteSDK functions are work fine too.
